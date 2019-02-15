@@ -1,11 +1,7 @@
-import {combineReducers} from 'redux'
+import { combineReducers } from "redux";
+import BooksReducer from "./reducer_books";
 
-import errorMessage from './error-message'
-import subreddits from './subreddits'
-import waiting from './waiting'
-
+// Mapping of our state with combineReducers
 export default combineReducers({
-  errorMessage,
-  subreddits,
-  waiting
-})
+  books: BooksReducer
+});

@@ -1,17 +1,10 @@
-import React from 'react'
-
-import ErrorMessage from './ErrorMessage'
-import LoadSubreddit from './LoadSubreddit'
-import SubredditList from './SubredditList'
-import WaitIndicator from './WaitIndicator'
+import React from "react";
+import BookList from "../containers/BookList";
 
 const App = () => (
-  <div className='app'>
-    <ErrorMessage />
-    <LoadSubreddit />
-    <WaitIndicator />
-    <SubredditList />
+  <div className="app">
+    <BookList />
   </div>
-)
+);
 
-export default App
+export default App;
