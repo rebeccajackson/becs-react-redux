@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "nodemon --watch server & webpack --watch",
     "test": "jest --watchAll",
-    "start": "node server",
-    "postinstall": "webpack"
+    "start": "nodemon server",
+    "postinstall": "webpack",
+    "win": "webpack --watch"
   },
   "author": "EDA",
   "license": "ISC",
